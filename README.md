@@ -33,11 +33,7 @@ This script removes all of these elements and generates a clean, upload-ready PD
 
 Before running the script, install the required library:
 
-Shell
-
-pip install PyPDF2  
-
-Show more lines
+*pip install PyPDF2*
 
 ---
 
