@@ -1,8 +1,9 @@
 #Need to have PyPDF2 installed: pip install PyPDF2
 from PyPDF2 import PdfReader, PdfWriter
 
-input_path = "/Users/rishabhmalik/Downloads/pay/payslip nov-25.pdf"
-output_path = "/Users/rishabhmalik/Downloads/pay/cpayslip nov-25.pdf"
+#Add the source path of the directory with the docoument name
+input_path = "Document.pdf"
+output_path = "Document_Cleaned.pdf"
 
 # Open the original PDF in read-binary mode
 with open(input_path, "rb") as infile:
